@@ -11,6 +11,7 @@ public class AddBookServlet extends GenericServlet{
 		String bCode = req.getParameter("bcode");
 		String bName = req.getParameter("bname");
 		String bAuthor = req.getParameter("bauthor");
+		int dominika = 34;
 		int bPrice =Integer.parseInt(req.getParameter("bprice"));
 		int bQty = Integer.parseInt(req.getParameter("bqty"));
 		try {
